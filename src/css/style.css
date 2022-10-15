@@ -1,0 +1,98 @@
+
+.first_list {
+    color: navajowhite;
+}
+
+.case p {
+    color: red;
+}
+
+.case > p {
+    color: blue;
+}
+
+.main_block {
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+    left: 200px;
+}
+div > .addition_block {
+    height: 134px;
+    width: 134px;
+    background-color: red;
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 10px;
+}
+.absolute-test {
+    width: 400px;
+    height: 300px;
+    background-color: grey;
+    position: relative;
+    bottom: 0px;
+    left: 300px;
+}
+.absolute-test__inner {
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.change-color {
+    background-color: blue;
+}
+
+div > .change-height {
+    height: 120px;
+}
+
+.inline-test__inner {
+    background-color: blueviolet;
+    display: inline-block;
+    margin: 5px;
+}
+
+.main_block {
+    margin: 0;
+    padding: 0;
+}
+
+.grey-block {
+    background-color: grey;
+    height: 400px;
+}
+
+.grey-block > div {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.grey-block > .red-block {
+    background-color: red;
+    height: 150px;
+}
+
+.grey-block > .blue-block {
+    background-color: blue;
+    height: 100px;
+}
+.grey-block > .green-block {
+    background-color: green;
+    height: 250px;
+}
+.additional-text-class {
+    color: green;
+}
+.text-class {
+    color: red;
+}
